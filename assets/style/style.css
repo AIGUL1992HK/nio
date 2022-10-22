@@ -1,0 +1,55 @@
+@import "fonts.css";
+/*SECTION CAT*/
+
+body {
+    font-family: 'Montserrat' , sans-serif;
+}
+.row {
+    display: flex;
+}
+.col {
+padding: 60px 11px 18px;
+
+
+}
+.card {
+    width: 380px;
+    height: 264px;
+    background-color: #333333;
+
+
+
+}
+.cat__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+}
+.cat__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    position: relative;
+    left: 10px;
+}
+.cat__summa {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    position: relative;
+    left: 10px;
+}
+.cat__button {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #ffffff;
+    background: #6EBBD3;
+}
